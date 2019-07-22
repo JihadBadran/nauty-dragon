@@ -7,15 +7,8 @@
 
 **Nauty Dragon** is a notifications library which makes it extremely easy to display notifications on your web apps. It is **highly customizable** and enables **you** to stack notifications on top of one another.
 
-**Nauty Dragon**s' main power is that the notification style does not follow any specific design of any library. it is by default, styled with vanila css.
+**Nauty Dragon**'s main power is that the notification style does not follow any specific design of any library. it is by default, styled with vanila css.
 you can build your own notification component. or use the Material UI Snackbar if you want :). 
-
-    
-#### [`Play with online demo here`](https://iamhosseindhv.com/notistack/demos)
-  
-| Stacking behaviour | Dismiss oldest when reached maxSnack (3 here)| 
-| --- | --- |
-| <img width="400" src="https://i.imgur.com/MtijvAK.gif"/>    | <img width="400" src="https://i.imgur.com/urX47Wn.gif"/>|
 
 
 Table of Contents
