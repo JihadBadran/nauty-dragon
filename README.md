@@ -1,7 +1,7 @@
 # Nauty Dragon
-![npm downloads](https://img.shields.io/npm/dm/notistack.svg)
-![npm version](https://img.shields.io/npm/v/notistack.svg?label=version)
-![npm version](https://img.shields.io/npm/l/notistack.svg)
+![npm downloads](https://img.shields.io/npm/dm/nauty-dragon.svg)
+![npm version](https://img.shields.io/npm/v/nauty-dragon.svg?label=version)
+![npm version](https://img.shields.io/npm/l/nauty-dragon.svg)
 
 **Nauty Dragon** is in progress and can't be used, please be patient with us :) thank you
 
@@ -32,70 +32,27 @@ Table of Contents
 ## Getting Started
 Use your preferred package manager:
 ```
-npm install notistack
-yarn add notistack 
+npm install nauty-dragon
+yarn add nauty-dragon
 ```
 
-### How to use
-
-**1:** Wrap your app inside a `SnackbarProvider` component: (see [docs](https://iamhosseindhv.com/notistack/api) for a full list of available props)
-<br />
-**Note:** If you're using material-ui `ThemeProvider`, make sure `SnackbarProvider` is a child of it.
-```jsx
-import { SnackbarProvider } from 'notistack';
-
-<SnackbarProvider maxSnack={3}>
-    <App />
-</SnackbarProvider>
-
-```
+### How to use:
 
 
-**2:** Export any component that needs to send notification using `withSnackbar`. By doing this, you'll have access to methods `enqueueSnackbar` and `closeSnackbar`, where the former can be used to send snackbars.
+### Demo:
 
-```javascript
-import { withSnackbar } from 'notistack';
-
-class MyComponent extends Component {
-  handleNetworkRequest = () => {
-     fetchSomeData()
-        .then(() => this.props.enqueueSnackbar('Successfully fetched the data.'))
-        .catch(() => this.props.enqueueSnackbar('Failed fetching data.'));
-  };
-
-  render(){
-     //...
-  };
-  
-};
-
-export default withSnackbar(MyComponent);
-```
+### Documentation:
 
 
-### Online demo
-**You can see the online demo and experiment all the possible configurations [`here`](https://iamhosseindhv.com/notistack/demos).**</br>
-Or see the code for a minimal working example: [codesandbox](https://codesandbox.io/s/github/iamhosseindhv/notistack/tree/master/examples/simple-example??hidenavigation=1&module=%2FApp.js) </br>
-
-
-### Documentation
-#### [`Visit the documentation website`](https://iamhosseindhv.com/notistack/api)
-
-
-### Redux and Mobx support:
-notistack is compatible with state management libraries such as Redux and Mobx. See notistack [documentation](https://iamhosseindhv.com/notistack/demos#redux-/-mobx-example) for more info.
+### State Managers Support:
 
 ### Contribution
-Open an issue and your problem will be solved.
+when it get its first release, please try it and open an issue when you see it, that will help greatly to shorten the bug fixing process, and we will owe you one.
 
 
 #### Notes
-Material Design guidelines [suggests](https://material.io/design/components/snackbars.html#behavior) that only one snackbar should be displayed at a time. But I liked to stack them. 😁 So I made notistack. But if you'd like to stick to the guidelines, you can set `maxSnack` to `1` and just take advantage of `enqueueSnackbar` function.
+
 
 
 ### Author - Contact
-Hossein Dehnokhalaji
-
-<a href="https://www.instagram.com/iamhosseindhv"><img src="https://github.com/iamhosseindhv/Rentaly/blob/master/Gifs/instagram.png" alt="Hossein Dehnokhalaji Instagram profile" align="right" width="32" height="32"/></a>
-<a href="https://www.linkedin.com/in/iamhosseindhv"><img src="https://github.com/iamhosseindhv/Rentaly/blob/master/Gifs/linkedin.png" alt="Hossein Dehnokhalaji Linkedin profile" align="right" width="32" height="32"/></a>
-<a href="mailto:hossein.dehnavi98@yahoo.com"><img src="https://github.com/iamhosseindhv/Rentaly/blob/master/Gifs/contact.png" alt="Hossein Dehnokhalaji email address" align="right" width="32" height="32"/></a>
+Jihad Badran
