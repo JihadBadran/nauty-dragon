@@ -3,7 +3,7 @@
 ![npm version](https://img.shields.io/npm/v/nauty-dragon.svg?label=version)
 ![npm version](https://img.shields.io/npm/l/nauty-dragon.svg)
 
-**Nauty Dragon** is in progress and can't be used, please be patient with us :) thank you
+**Hey!, thank you for being interested in this, but Nauty Dragon is in progress and can't be used, please be patient with us :) thank you**
 
 **Nauty Dragon** is a notifications library which makes it extremely easy to display notifications on your web apps. It is **highly customizable** and enables **you** to stack notifications on top of one another.
 
